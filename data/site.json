@@ -1,0 +1,13 @@
+{
+  "name": "HUFS Global CORE",
+  "address": {"ko":"(17035) 경기도 용인시 처인구 모현읍 외대로 81, 한국외국어대학교 글로벌캠퍼스", "en":"81 Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do 17035, Republic of Korea"},
+  "room": null,
+  "phone": null,
+  "email": null,
+  "directorMessage": null,
+  "popup": {"enabled": true, "version": "welcome-1", "title": {"ko":"HUFS Global CORE에 오신 것을 환영합니다", "en":"Welcome to HUFS Global CORE"}, "body": {"ko":"e스포츠의 새로운 가능성을 함께 탐구합니다. 연구진 소개, 연구 실적과 센터 소식은 현재 등록 준비 중이며, 확인된 자료부터 순차적으로 공개하겠습니다.", "en":"Explore new possibilities in esports with us. Our team profiles, publications and center news are being prepared and will be published as verified information becomes available."}, "url":"about.html"},
+  "relatedLinks": [
+    {"name":{"ko":"한국외국어대학교","en":"Hankuk University of Foreign Studies"},"url":"https://www.hufs.ac.kr/"},
+    {"name":{"ko":"글로벌스포츠산업학부","en":"Division of Global Sport Industry"},"url":"https://sport.hufs.ac.kr/"}
+  ]
+}

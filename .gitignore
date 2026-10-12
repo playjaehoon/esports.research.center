@@ -1,0 +1,10 @@
+node_modules/
+dist/
+tmp/
+test-results/
+.netlify/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
