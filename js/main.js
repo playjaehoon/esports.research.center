@@ -1,3 +1,5 @@
+// Identity invitation/recovery links may initially land on the public home page.
+if (/^#(?:invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) location.replace('/admin/' + location.hash);
 import { $, $$, tr, local, lang, setLanguage, loadData, published, safeURL, escapeHTML as e, icon, openDialog, closeDialog, bindDialog } from './core.js';
 $$('[data-icon]').forEach(el => { el.innerHTML = icon(el.dataset.icon); });
 $$('dialog').forEach(bindDialog);

@@ -7,3 +7,10 @@
 /* People: restrained portrait and biography layout. */
 @media(min-width:768px){#members-list{grid-template-columns:1fr}#members-list .member-card{display:grid;grid-template-columns:240px minmax(0,1fr);gap:64px;align-items:center}}
 @media(max-width:767px){#members-list .member-card{display:block;padding-block:32px}#members-list .member-photo{width:210px;height:280px;max-height:none;margin-bottom:28px}#members-list .member-body{padding:0}#members-list .member-body h3{font-size:28px}.campus-map{height:320px}.map-fallback{min-height:320px;padding:28px}}
+
+/* Keep mobile form inputs readable without automatic iOS zoom. */
+@media(max-width:767px){.form-field input,.form-field select,.form-field textarea,.search-field input,.filter-selects select{font-size:16px}.anchor-nav{flex-wrap:wrap;row-gap:12px}.filter-tabs{flex-wrap:wrap}.lightbox-caption{flex-wrap:wrap}.welcome-bottom{flex-wrap:wrap;gap:8px}.hero-controls button{min-height:44px}.hero-pagination button{min-width:32px}}
+
+/* Mobile slides show the complete image below the persistent message. */
+.hero-mobile-photo{display:none}
+@media(max-width:767px){.hero-photo-mode .hero-backdrops,.hero-photo-mode:after{display:none}.hero-photo-mode h1,.hero-photo-mode .hero-subtitle,.hero-photo-mode .text-link,.hero-photo-mode .hero-foot,.hero-photo-mode .hero-foot strong,.hero-photo-mode .hero-controls{color:var(--navy)}.hero-photo-mode h1 .accent,.hero-photo-mode .hero-eyebrow{color:var(--teal)}.hero-photo-mode .hero-description{color:var(--muted)}.hero-photo-mode .hero-eyebrow:before{background:var(--teal)}.hero-photo-mode .button{background:var(--navy);color:white;border-color:var(--navy)}.hero-photo-mode .hero-foot{border-color:var(--border)}.hero-photo-mode .hero-visual{opacity:1;pointer-events:auto}.hero-photo-mode .hero-visual>*:not(.hero-mobile-photo){visibility:hidden}.hero-photo-mode .hero-mobile-photo:not([hidden]){display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain}}

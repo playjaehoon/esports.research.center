@@ -54,7 +54,7 @@ test('all 8 pages initialize offline without script errors',async()=>{
   }
 });
 test('home starts with honest empty states and exactly four real tracks',async()=>{
-  const app=await boot('index');assert.equal(app.doc.querySelectorAll('.track-card').length,4);assert.match(app.doc.querySelector('#latest-notices').textContent,/준비/);assert.match(app.doc.querySelector('#latest-publications').textContent,/준비/);assert.equal(app.doc.querySelectorAll('.ticker').length,0);assert.equal(app.doc.querySelector('#welcome-dialog').open,true);app.close();
+  const app=await boot('index',{fixtures:{partners:[]}});assert.equal(app.doc.querySelectorAll('.track-card').length,4);assert.match(app.doc.querySelector('#latest-notices').textContent,/준비/);assert.match(app.doc.querySelector('#latest-publications').textContent,/준비/);assert.equal(app.doc.querySelectorAll('.ticker').length,0);assert.equal(app.doc.querySelector('#welcome-dialog').open,true);app.close();
 });
 test('popup suppression is a true 24-hour expiry and closing restores scrolling',async()=>{
   let app=await boot('index');app.doc.querySelector('#hide-today').checked=true;const before=Date.now();app.click('#welcome-dialog [data-close]');const expiry=Number(app.w.localStorage.getItem('hufs-core-popup-until'));assert.ok(expiry>=before+86400000&&expiry<=Date.now()+86400000);assert.equal(app.doc.body.classList.contains('dialog-open'),false);app.close();
@@ -108,4 +108,14 @@ test('contact form requires name, valid email, topic, message and consent',async
 });
 test('local preview never submits a form or pretends it was received',async()=>{
   const app=await boot('qna',{hostname:'localhost'});const event=new app.w.Event('submit',{cancelable:true,bubbles:true});app.doc.querySelector('#contact-form').dispatchEvent(event);assert.equal(event.defaultPrevented,true);assert.match(app.doc.querySelector('#form-status').textContent,/전송하지 않습니다/);assert.equal(app.requests.every(url=>url.startsWith('data/')),true);app.close();
+});
+
+
+test('hero switches between the CORE layout and full banner without changing the message',async()=>{
+  const app=await boot('index');const hero=app.doc.querySelector('#hero-carousel');const title=hero.querySelector('h1').textContent;
+  app.click('.hero-next');assert.ok(hero.classList.contains('hero-photo-mode'));assert.equal(hero.querySelector('h1').textContent,title);assert.equal(hero.querySelector('.hero-count').textContent,'02 / 03');
+  assert.equal(hero.querySelector('.hero-mobile-photo').hidden,false);assert.ok(hero.querySelector('.hero-mobile-photo').getAttribute('src').endsWith('hero-arena-sample.svg'));
+  app.click('.hero-previous');assert.equal(hero.classList.contains('hero-photo-mode'),false);app.click('.hero-toggle');assert.equal(hero.querySelector('.hero-toggle').getAttribute('aria-pressed'),'true');
+  assert.equal(hero.querySelector('.hero-mobile-photo').hidden,true);assert.equal(hero.querySelector('.hero-mobile-photo').hasAttribute('src'),false);
+  app.close();
 });

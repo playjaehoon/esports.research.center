@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "global-sport-industry",
+    "name": {
+      "ko": "글로벌스포츠산업학부",
+      "en": "Division of Global Sport Industry"
+    },
+    "logo": "assets/images/global-sport-industry.png",
+    "url": "https://sport.hufs.ac.kr/"
+  }
+]
