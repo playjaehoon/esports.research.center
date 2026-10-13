@@ -1,7 +1,52 @@
 [
-  {"question":{"ko":"센터에서는 어떤 주제를 연구하나요?","en":"What does the center study?"},"answer":{"ko":"e스포츠 생태계 및 정책, 게이머 인체공학과 퍼포먼스 HCI, 스포츠 마케팅 및 팬덤 경제, 다양성과 디지털 웰빙의 네 가지 연구 트랙을 중심으로 탐구합니다.","en":"Our four tracks cover esports ecosystems and policy, player performance and ergonomics, branding and fan culture, and diversity and digital wellbeing."}},
-  {"question":{"ko":"공동 연구나 산학 협력을 제안할 수 있나요?","en":"How can I propose a research collaboration?"},"answer":{"ko":"아래 문의 양식에서 ‘연구·산학 협력’을 선택하고 제안 주제와 소속, 회신 이메일을 남겨 주세요.","en":"Choose Research collaboration in the form below and share your topic, affiliation and reply email."}},
-  {"question":{"ko":"연구원·학생연구원 모집 정보는 어디서 확인하나요?","en":"Where can I find recruitment opportunities?"},"answer":{"ko":"모집이 확정되면 공지사항에 게시합니다. 현재 모집 관련 자료는 등록 준비 중입니다.","en":"Confirmed opportunities will be listed on the Notices page. Recruitment information is currently being prepared."}},
-  {"question":{"ko":"연구 논문 원문을 열람할 수 있나요?","en":"Can I access publication full texts?"},"answer":{"ko":"연구 실적 페이지에서 공개 가능한 논문의 PDF와 DOI 링크를 제공합니다. 현재 연구 실적 자료는 등록 준비 중입니다.","en":"Available PDF and DOI links will appear on the Research page. Publication records are currently being prepared."}},
-  {"question":{"ko":"센터 방문은 어떻게 신청하나요?","en":"How can I arrange a visit?"},"answer":{"ko":"방문 전에 문의 양식으로 목적과 희망 일정을 알려 주세요. 상세 연구동·호실은 확인 후 안내할 예정입니다.","en":"Before visiting, use the inquiry form to share your purpose and preferred date. The building and room details will be confirmed separately."}}
+  {
+    "question": {
+      "ko": "센터에서는 어떤 주제를 연구하나요?",
+      "en": "What does the center study?"
+    },
+    "answer": {
+      "ko": "e스포츠 생태계 및 정책, 게이머 인체공학과 퍼포먼스 HCI, 스포츠 마케팅 및 팬덤 경제, 다양성과 디지털 웰빙의 네 가지 연구 트랙을 중심으로 탐구합니다.",
+      "en": "Our four tracks cover esports ecosystems and policy, player performance and ergonomics, branding and fan culture, and diversity and digital wellbeing."
+    }
+  },
+  {
+    "question": {
+      "ko": "공동 연구나 산학 협력을 제안할 수 있나요?",
+      "en": "How can I propose a research collaboration?"
+    },
+    "answer": {
+      "ko": "아래 문의 양식에서 ‘연구·산학 협력’을 선택하고 제안 주제와 소속, 회신 이메일을 남겨 주세요.",
+      "en": "Choose Research collaboration in the form below and share your topic, affiliation and reply email."
+    }
+  },
+  {
+    "question": {
+      "ko": "연구원·학생연구원 모집 정보는 어디서 확인하나요?",
+      "en": "Where can I find recruitment opportunities?"
+    },
+    "answer": {
+      "ko": "모집이 확정되면 공지사항에 게시합니다. 현재 모집 관련 자료는 등록 준비 중입니다.",
+      "en": "Confirmed opportunities will be listed on the Notices page. Recruitment information is currently being prepared."
+    }
+  },
+  {
+    "question": {
+      "ko": "연구 논문 원문을 열람할 수 있나요?",
+      "en": "Can I access publication full texts?"
+    },
+    "answer": {
+      "ko": "연구 실적 페이지에서 공개 가능한 논문의 PDF와 DOI 링크를 제공합니다. 현재 연구 실적 자료는 등록 준비 중입니다.",
+      "en": "Available PDF and DOI links will appear on the Research page. Publication records are currently being prepared."
+    }
+  },
+  {
+    "question": {
+      "ko": "센터 방문은 어떻게 신청하나요?",
+      "en": "How can I arrange a visit?"
+    },
+    "answer": {
+      "ko": "연구실은 한국외국어대학교 글로벌캠퍼스 어문학관 423호에 있습니다. 방문 전에 문의 양식이나 연구실 이메일(esports.research.center@hufs.ac.kr)로 목적과 희망 일정을 알려 주세요.",
+      "en": "The research office is in Room 423, Eomunhakgwan, HUFS Global Campus. Before visiting, please share your purpose and preferred date through the inquiry form or esports.research.center@hufs.ac.kr."
+    }
+  }
 ]

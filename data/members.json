@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "ryu-yoonji",
+    "name": {
+      "ko": "류윤지",
+      "en": "Yoonji Ryu"
+    },
+    "role": {
+      "ko": "센터장 · 교수",
+      "en": "Director · Professor"
+    },
+    "affiliation": {
+      "ko": "한국외국어대학교 글로벌스포츠산업학부",
+      "en": "Division of Global Sport Industry, Hankuk University of Foreign Studies"
+    },
+    "bio": {
+      "ko": "서울대학교 스포츠경영학 박사\n연구 분야: e스포츠 · 스포츠 미디어 · 스포츠 경제학",
+      "en": "Ph.D. in Sport Management, Seoul National University\nResearch: esports · sport media · sport economics"
+    },
+    "image": "assets/images/members/ryu-yoonji.png",
+    "url": "https://sport.hufs.ac.kr/profl/sport/71/5358/artclView.do"
+  },
+  {
+    "id": "jeong-seokgyun",
+    "name": {
+      "ko": "정석균",
+      "en": "정석균"
+    },
+    "role": {
+      "ko": "연구원",
+      "en": "Researcher"
+    },
+    "affiliation": {
+      "ko": "HUFS Global CORE",
+      "en": "HUFS Global CORE"
+    },
+    "bio": {
+      "ko": "글로벌e스포츠매니지먼트 석사과정 재학",
+      "en": "Master’s student in Global Esports Management"
+    },
+    "image": "assets/images/members/jeong-seokgyun.png",
+    "url": null
+  }
+]

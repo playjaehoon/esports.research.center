@@ -1,13 +1,54 @@
 {
   "name": "HUFS Global CORE",
-  "address": {"ko":"(17035) 경기도 용인시 처인구 모현읍 외대로 81, 한국외국어대학교 글로벌캠퍼스", "en":"81 Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do 17035, Republic of Korea"},
-  "room": null,
-  "phone": null,
-  "email": null,
+  "address": {
+    "ko": "(17035) 경기도 용인시 처인구 모현읍 외대로 81, 한국외국어대학교 글로벌캠퍼스 어문학관 423호",
+    "en": "Room 423, Eomunhakgwan, HUFS Global Campus, 81 Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do 17035, Republic of Korea"
+  },
+  "room": {
+    "ko": "어문학관 423호",
+    "en": "Room 423, Eomunhakgwan"
+  },
+  "phone": "031-330-4221",
+  "email": "esports.research.center@hufs.ac.kr",
   "directorMessage": null,
-  "popup": {"enabled": true, "version": "welcome-1", "title": {"ko":"HUFS Global CORE에 오신 것을 환영합니다", "en":"Welcome to HUFS Global CORE"}, "body": {"ko":"e스포츠의 새로운 가능성을 함께 탐구합니다. 연구진 소개, 연구 실적과 센터 소식은 현재 등록 준비 중이며, 확인된 자료부터 순차적으로 공개하겠습니다.", "en":"Explore new possibilities in esports with us. Our team profiles, publications and center news are being prepared and will be published as verified information becomes available."}, "url":"about.html"},
+  "popup": {
+    "enabled": true,
+    "version": "welcome-1",
+    "title": {
+      "ko": "HUFS Global CORE에 오신 것을 환영합니다",
+      "en": "Welcome to HUFS Global CORE"
+    },
+    "body": {
+      "ko": "e스포츠의 새로운 가능성을 함께 탐구합니다. 센터 소개에서 연구진을 만나보세요. 연구 실적과 센터 소식은 확인된 자료부터 순차적으로 공개하겠습니다.",
+      "en": "Explore new possibilities in esports with us. Meet our team on the About page. Verified publications and center news will be shared as they become available."
+    },
+    "url": "about.html"
+  },
   "relatedLinks": [
-    {"name":{"ko":"한국외국어대학교","en":"Hankuk University of Foreign Studies"},"url":"https://www.hufs.ac.kr/"},
-    {"name":{"ko":"글로벌스포츠산업학부","en":"Division of Global Sport Industry"},"url":"https://sport.hufs.ac.kr/"}
-  ]
+    {
+      "name": {
+        "ko": "한국외국어대학교",
+        "en": "Hankuk University of Foreign Studies"
+      },
+      "url": "https://www.hufs.ac.kr/"
+    },
+    {
+      "name": {
+        "ko": "글로벌스포츠산업학부",
+        "en": "Division of Global Sport Industry"
+      },
+      "url": "https://sport.hufs.ac.kr/"
+    },
+    {
+      "name": {
+        "ko": "e스포츠 실습실 예약사이트",
+        "en": "Esports lab reservations"
+      },
+      "url": "https://hufsesports.pythonanywhere.com/"
+    }
+  ],
+  "directorIntroduction": {
+    "ko": "류윤지 교수는 한국외국어대학교 글로벌스포츠산업학부 소속으로, 서울대학교에서 스포츠경영학 박사학위를 받았습니다. 주요 연구 분야는 e스포츠, 스포츠 미디어, 스포츠 경제학입니다.",
+    "en": "Professor Yoonji Ryu is a faculty member in the Division of Global Sport Industry at Hankuk University of Foreign Studies. She holds a Ph.D. in Sport Management from Seoul National University. Her research focuses on esports, sport media and sport economics."
+  }
 }
