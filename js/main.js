@@ -19,8 +19,8 @@ async function renderSite() {
     $$('[data-room]').forEach(el=>el.textContent=local(site.room) || tr('상세 연구동·호실 안내 준비 중','Building and room details to be announced'));
     $$('[data-contact]').forEach(el=> {
       el.replaceChildren();
-      if(site.email) { const a=document.createElement('a');a.href=`mailto:${site.email}`;a.textContent=site.email;el.append(a); }
-      if(site.phone) { const a=document.createElement('a');a.href=`tel:${site.phone.replace(/[^\d+]/g,'')}`;a.textContent=site.phone;el.append(a); }
+      if(site.email) { const a=document.createElement('a');a.href=`mailto:${site.email}`;a.textContent=(el.closest('.site-footer') ? 'E-mail: ' : '')+site.email;el.append(a); }
+      if(site.phone) { const a=document.createElement('a');a.href=`tel:${site.phone.replace(/[^\d+]/g,'')}`;a.textContent=(el.closest('.site-footer') ? 'Tel: ' : '')+site.phone;el.append(a); }
       if(!site.email && !site.phone) el.textContent=tr('연구실 전화·이메일 등록 준비 중','Lab phone and email to be announced');
     });
     $$('[data-related-links]').forEach(el=>el.innerHTML=(site.relatedLinks||[]).filter(x=>safeURL(x.url)).map(x=>`<a href="${e(safeURL(x.url))}" target="_blank" rel="noopener noreferrer">${e(local(x.name))}${icon('external')}</a>`).join(''));
